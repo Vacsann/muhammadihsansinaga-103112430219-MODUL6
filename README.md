@@ -463,7 +463,7 @@ int main() {
 
 ```
 > Output
-> ![Screenshot bagian x](ssunguidedmodul6.png)
+> ![Screenshot bagian x](ssunguided1.modul6.png)
 Program ini merupakan implementasi Doubly Linked List dalam bahasa C++ untuk mengelola data kendaraan yang terdiri dari nomor polisi, warna (kuning atau putih), dan tahun pembuatan. Setiap node dalam list memiliki dua pointer, yaitu next untuk menunjuk ke node berikutnya dan prev untuk menunjuk ke node sebelumnya, sehingga memungkinkan traversal dua arah. Program ini menyediakan berbagai fungsi seperti insertLast() untuk menambah data kendaraan di akhir list, findNode() untuk mencari kendaraan berdasarkan nomor polisi, serta deleteAfter() dan deleteLast() untuk menghapus node tertentu. Di fungsi main(), beberapa data kendaraan dimasukkan ke dalam list, kemudian ditampilkan, lalu dilakukan penghapusan node setelah kendaraan dengan nomor “D002” dan juga penghapusan elemen terakhir. Setelah setiap operasi, daftar kendaraan ditampilkan kembali untuk memperlihatkan hasil perubahan.
 
 ## Referensi
